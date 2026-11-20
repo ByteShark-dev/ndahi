@@ -359,3 +359,42 @@ p { line-height: 1.75; }
 .context-photo figcaption { background: #e9e4d8; color: #29453a; padding: 16px 22px; font-size: 13px; line-height: 1.5; }
 .brand-upload { width: 76px; height: 76px; max-height: 76px; border-radius: 50%; object-fit: cover; }
 @media(max-width: 830px) { .brand-upload { width: 57px; height: 57px; } .context-photo { margin-bottom: 28px; } }
+
+
+/* Biblioteca de recursos originales de Ndähi */
+.resources-section{background:#f8f6ec;scroll-margin-top:90px}
+.resources-header{max-width:760px;margin-bottom:38px}
+.resources-header h2{font-size:clamp(2.6rem,5.6vw,5.5rem);line-height:1.04;letter-spacing:-.055em;margin:15px 0 18px;color:#132e29}
+.resources-header h2 em{font-family:"Instrument Serif",serif;font-weight:400;letter-spacing:-.025em;color:#b77840}
+.resources-header p,.resources-note{color:#51665b;line-height:1.7;max-width:730px}
+.resources-grid{display:grid;grid-template-columns:1.35fr 1fr 1fr;gap:16px;align-items:stretch}
+.resource-card{min-width:0;background:#fffdf7;border:1px solid #e1ded0;border-radius:17px;overflow:hidden;display:flex;flex-direction:column}
+.resource-feature{background:#ecf0e9}
+.resource-card-top{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:20px 20px 13px}
+.resource-label{font-size:.69rem;font-weight:800;letter-spacing:.1em;color:#597065}
+.resource-pill{border:1px solid #cdd5c8;border-radius:999px;padding:5px 11px;font-size:.7rem;color:#294b3d;font-weight:700}
+.stove-viewer{height:310px;width:100%;background:radial-gradient(circle at center,#e4e9dd,#c8d9cd)}
+.model-poster{height:100%;position:relative;display:flex;align-items:center;justify-content:center}
+.model-poster img{width:100%;height:100%;object-fit:contain}
+.model-poster span{position:absolute;bottom:12px;background:#f8f6ecdf;color:#17362c;padding:7px 11px;font-size:.72rem;border-radius:99px}
+.resource-image-link{display:block;height:310px;background:#ecece6;padding:14px}
+.resource-image-link img{width:100%;height:100%;object-fit:contain}
+.manual-preview{min-height:310px;padding:30px 26px;display:grid;grid-template-columns:42px 1fr;align-content:center;gap:20px 8px;color:#132e29;background:linear-gradient(135deg,#f0e9da,#e4e8db)}
+.manual-preview span{font:italic 30px "Instrument Serif",serif;color:#b77840}
+.manual-preview div{font-weight:750;font-size:1rem;align-self:center;border-bottom:1px solid #c6ccbd;padding-bottom:17px}
+.resource-copy{padding:20px 22px 24px;display:flex;flex-direction:column;align-items:flex-start;flex:1}
+.resource-copy h3{font-size:1.27rem;color:#132e29;margin:0 0 10px}
+.resource-copy p{font-size:.91rem;line-height:1.65;color:#51665b;margin:0 0 18px;flex:1}
+.resource-copy a{font-size:.85rem;font-weight:750;color:#986138;text-decoration:underline;text-underline-offset:4px;margin:4px 10px 4px 0}
+.resource-links{display:flex;flex-wrap:wrap}
+.resources-note{font-size:.81rem;margin:25px 0 0}
+.manual-page{padding:86px 0 120px;min-height:70vh;background:#f8f6ec}
+.manual-page .manual-inner{max-width:800px;margin:auto;padding:0 24px}
+.manual-page h1{font-size:clamp(2.7rem,6vw,5rem);line-height:1.04;color:#132e29;letter-spacing:-.04em;margin:20px 0}
+.manual-page h2{font-size:1.45rem;color:#173f33;margin-top:38px;margin-bottom:10px}
+.manual-page p,.manual-page li{line-height:1.8;color:#415c51}
+.manual-page ul{padding-left:24px}
+.manual-page .backlink{font-weight:750;color:#9d633d}
+.manual-page .manual-warning{margin-top:30px;border-left:4px solid #e7a45d;padding:15px 22px;background:#f1e7d7}
+@media(max-width:1020px){.resources-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.resource-feature{grid-column:span 2}.resource-feature .stove-viewer{height:390px}}
+@media(max-width:650px){.resources-grid{grid-template-columns:1fr}.resource-feature{grid-column:span 1}.resource-feature .stove-viewer{height:310px}.resource-header h2{font-size:3.1rem}.resource-image-link{height:240px}.manual-preview{min-height:230px}}
