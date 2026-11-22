@@ -398,3 +398,7 @@ p { line-height: 1.75; }
 .manual-page .manual-warning{margin-top:30px;border-left:4px solid #e7a45d;padding:15px 22px;background:#f1e7d7}
 @media(max-width:1020px){.resources-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.resource-feature{grid-column:span 2}.resource-feature .stove-viewer{height:390px}}
 @media(max-width:650px){.resources-grid{grid-template-columns:1fr}.resource-feature{grid-column:span 1}.resource-feature .stove-viewer{height:310px}.resource-header h2{font-size:3.1rem}.resource-image-link{height:240px}.manual-preview{min-height:230px}}
+/* Two manuals and two design resources form a balanced grid. */
+@media(min-width:1021px){.resources-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:651px) and (max-width:1020px){.resources-grid>.resource-feature{grid-column:auto}.resource-feature .stove-viewer{height:310px}}
+.resource-draft{background:#f5e5d1;color:#744619;border-color:#e7a45d;white-space:nowrap}

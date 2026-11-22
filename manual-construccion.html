@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es-MX">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#132E29">
+<meta name="description" content="Versión 0.2 en desarrollo del manual de construcción de Ndähi.">
+<title>Manual de construcción en desarrollo | Ndähi</title>
+<link rel="icon" href="./assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;600;700;800&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./styles.css">
+<style>
+/* Keep the official brand and provide a compact, printable reading layout. */
+.manual-brand {width:116px;height:auto;margin:24px 0 12px;border-radius:12px}
+.manual-inner .manual-title{font-size:clamp(2.4rem,7vw,4.2rem);line-height:1.04;margin:14px 0 12px}
+.manual-subtitle{font-weight:600;margin:0 0 6px}
+.manual-origin{font-size:.9rem;opacity:.85}
+.manual-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center;margin:26px 0 36px}
+.manual-actions a,.manual-actions button{display:inline-flex;align-items:center;justify-content:center;min-height:45px;padding:11px 18px;border:1px solid #132e29;border-radius:999px;font:inherit;font-weight:700;text-decoration:none;cursor:pointer}
+.manual-actions .download{background:#132e29;color:#f8f6ec}
+.manual-actions .print{background:transparent;color:#132e29}
+.manual-actions .view{border-color:transparent;color:#132e29;text-decoration:underline}
+.manual-section ol{padding-left:1.35rem;margin-bottom:2rem}
+.manual-section li{padding-left:.25rem;margin:0 0 .7rem;line-height:1.65}
+.manual-section a{color:#132e29;text-decoration:underline;overflow-wrap:anywhere}
+.manual-section li.manual-warning{padding:14px 16px;margin-left:0;border-radius:8px}
+@media print{
+ @page{size:A4;margin:14mm}
+ html,body,.manual-page,.manual-inner{background:white!important;color:black!important;margin:0!important;padding:0!important;width:auto!important;max-width:none!important}
+ .manual-actions,.backlink{display:none!important}
+ .manual-brand{width:70px;margin:0 0 8pt}
+ .manual-inner .manual-title{font-size:24pt;margin:0 0 8pt}
+ .manual-inner h2{font-size:15pt;margin:14pt 0 6pt;break-after:avoid}
+ .manual-inner p,.manual-section li{font-size:10.5pt;line-height:1.4}
+ .manual-section ol{margin-bottom:10pt}
+ .manual-section li{break-inside:avoid;margin-bottom:5pt}
+ .manual-section a{color:black!important}
+ .manual-section li.manual-warning{background:white!important;border:1px solid #555}
+}
+</style>
+<style>.manual-inner h3{font-size:1.16rem;color:#132e29;margin:26px 0 8px}.manual-inner .draft-notice{margin:20px 0 26px}.manual-inner .manual-section p{margin:0 0 1em}@media print{.manual-inner h3{font-size:12pt;break-after:avoid}.manual-inner .manual-warning{background:white!important;border:1px solid #555;break-inside:avoid}.manual-inner .manual-section{background:white!important}}</style>
+</head>
+<body>
+<main class="manual-page"><div class="manual-inner">
+<a href="./index.html#recursos" class="backlink">← Volver al sitio Ndähi</a>
+<header>
+<img class="manual-brand" src="./assets/logo-ndahi.jpg" alt="Logotipo de Ndähi">
+<div class="eyebrow">GUÍA DE CONSTRUCCIÓN · VERSIÓN 0.2</div>
+<h1 class="manual-title">Ndähi — Manual de construcción</h1>
+<p class="manual-subtitle">Estufa ecológica tipo Patsari | Raíces Sustentables</p>
+<p class="manual-origin">Nacido de un proyecto escolar de la Preparatoria OAK<br>Los Rosales, Comonfort, Guanajuato</p>
+<p class="manual-warning draft-notice"><strong>Manual en desarrollo — aún está por terminarse.</strong> Versión 0.2 — Guía práctica en desarrollo. La primera parte recoge la experiencia de construcción de la base; la segunda parte todavía es preliminar y está pendiente de documentarse en obra. No es un instructivo definitivo ni sustituye la revisión estructural y de seguridad por personal calificado.</p>
+</header>
+<nav class="manual-actions" aria-label="Opciones del manual de construcción">
+<a class="download" href="./recursos/manual-construccion-ndahi.pdf" download="Manual-de-construccion-Ndahi-v0.2.pdf">Descargar borrador PDF ↓</a>
+<button class="print" type="button" onclick="window.print()">Imprimir guía</button>
+<a class="view" href="./recursos/manual-construccion-ndahi.pdf" target="_blank" rel="noopener">Ver PDF original ↗</a>
+</nav>
+<div class="manual-section"><h2>Cómo utilizar este manual</h2>
+<p>Esta guía ayuda a las familias a construir una estufa ecológica tipo Patsari, tomando como referencia la experiencia de Ndähi en Los Rosales, Comonfort, Guanajuato. Se busca aprovechar materiales locales y reutilizables para reducir gastos. La parte 1 se basa en la construcción realizada por el proyecto; la parte 2 es una guía preliminar basada en el manual de GIRA y todavía está pendiente de documentar en obra. Solicite apoyo de una persona con experiencia en albañilería y de una persona calificada en estructuras para revisar la losa: esta guía no sustituye un diseño estructural.</p>
+<h2>Parte 1. Construcción de la base</h2>
+<p>Tome como referencia una base de 130 × 80 cm, con una altura total de 55 a 60 cm, incluida la losa, según las indicaciones de TECA. Adapte la ubicación y la altura a la vivienda y a la comodidad de quien cocina. Antes de construir, defina el espesor, los apoyos y el refuerzo de la losa con una persona calificada.</p>
+<h3>Materiales para la base</h3>
+<p>Consiga ladrillos o blocks, material para la mezcla de albañilería (cemento o mortero apropiado, arena y agua), cemento gris, arena, grava y agua para el concreto, madera para la cimbra y sus apoyos, y el refuerzo estructural especificado para la losa. Aproveche la madera, la arena y la grava que ya tenga si están en buenas condiciones. Las cantidades dependen de las dimensiones y del armado; la experiencia de Ndähi no registró las cantidades exactas. En la construcción de referencia se destinó un bulto de cemento de 50 kg a la base. Esta cantidad orienta la compra, pero no sustituye el cálculo del concreto y de las mezclas de albañilería.</p>
+<h3>Paso 1. Ubicación y orientación</h3>
+<p>Elija un sitio firme, nivelado y ventilado, con espacio para cocinar y una ruta segura para sacar la chimenea al exterior. Marque el rectángulo de la base y oriente el lado abierto hacia el área de trabajo. Revise la estabilidad del piso y evite ubicar la estufa junto a materiales combustibles.</p>
+<h3>Paso 2. Construcción de los apoyos</h3>
+<p>Levante tres lados con ladrillos o blocks para formar una C. Deje abierta la parte frontal hacia el lugar donde se va a cocinar. Pegue las piezas con mezcla de albañilería, usando la dosificación indicada en el producto empleado. Revise el nivel y la verticalidad de los muros; deje que las juntas adquieran resistencia antes de cargar los apoyos. El hueco inferior pertenece a la base: la entrada de leña se construye después, en el cuerpo superior.</p>
+<h3>Paso 3. Molde de la losa</h3>
+<p>Construya un molde de madera que cubra el hueco entre los muros y contenga el concreto fresco. Puede utilizar tablas recuperadas que estén sanas y firmes. En Ndähi se aprovecharon varias maderas y se usaron ladrillos y piezas pequeñas de madera para apoyar y nivelar la cimbra. Esta experiencia permite ahorrar madera, pero no garantiza que cualquier apoyo sea seguro. Antes de colar, compruebe que el tablero esté nivelado y que el apuntalamiento, los apoyos y las uniones puedan resistir el concreto fresco sin moverse ni hundirse; no utilice pilas inestables de ladrillos.</p>
+<h3>Paso 4. Preparar el refuerzo</h3>
+<p>Coloque el refuerzo estructural que corresponda al diseño de la losa, con los apoyos y separadores necesarios para que quede dentro del concreto. Como experiencia de reutilización, en el proyecto Ndähi se recuperó una red de corral de gallinero y se reforzó con alambre. Esta solución se registra como antecedente, no como un armado recomendado ni validado.</p>
+<p class="manual-warning">Importante: no utilice malla de gallinero ni alambre común como sustituto de la varilla o malla electrosoldada estructural. Su capacidad de carga no está acreditada. Pida a una persona calificada en estructuras que revise el armado, el espesor y los apoyos antes del colado o de cargar una losa ya construida. Corrija cualquier deficiencia antes de continuar.</p>
+<h3>Paso 5. Colado y nivelación</h3>
+<p>Prepare concreto con cemento gris, arena limpia, grava adecuada y agua, siguiendo la dosificación del fabricante y la resistencia requerida para el diseño. Mezcle de manera uniforme y agregue el agua gradualmente. Vierta el concreto en la cimbra firme, compáctelo con cuidado y nivele la superficie. No use mortero de albañilería en lugar del concreto de la losa. Mida solo lo necesario para completar el colado sin interrupciones. En la experiencia de Ndähi, se ajustaron las cantidades de la mezcla de manera empírica hasta obtener una consistencia adecuada para trabajarla; no se registraron proporciones exactas. La consistencia por sí sola no acredita la resistencia del concreto, por lo que para una nueva losa se debe respetar una dosificación adecuada al diseño.</p>
+<h3>Paso 6. Curado de la losa</h3>
+<p>Mantenga la losa húmeda y protegida del sol, los golpes y las cargas durante el curado, conforme a las indicaciones del cemento y del responsable de la obra. En Ndähi se consideró un intervalo inicial de 3 a 5 días para organizar la siguiente etapa; no es un plazo de autorización para cargar la losa o retirar la cimbra. Espere hasta que se compruebe la resistencia suficiente y la seguridad del armado antes de construir encima.</p>
+<h2>Parte 2. Construcción del cuerpo de la estufa</h2>
+<p class="manual-warning">Guía preliminar de preparación basada en el manual de GIRA y en las indicaciones de TECA. La secuencia completa de esta etapa se incorporará una vez documentada la construcción real de Ndähi. No comience mientras la base no haya sido revisada y autorizada para recibir la carga.</p>
+<h3>Materiales y aprovechamiento del barro local</h3>
+<p>Como referencia del manual Patsari, reúna 40 tabiques rojos de 24 × 12 × 6 cm, 4 botes de arena cernida, 1 bulto de mortero (confirme su peso con el proveedor), 1½ botes de barro molido fino (28.5 litros) y 3 botes de relleno (grava, arena o tierra). Use un bote de 19 litros como medida de referencia. Para ahorrar, busque tierra arcillosa local con autorización, retire piedras y raíces, seque y deshaga los terrones y cierna el barro. Confirme su aptitud y la mezcla con una persona instaladora antes de utilizarlo. Si el material local no resulta adecuado, consiga barro compatible. En Ndähi se adquirieron dos bultos de 50 kg (100 kg en total), aparentemente ambos de cemento gris, uno para la base y otro para el cuerpo. Conforme a la experiencia comunicada por el equipo, el cemento gris puede emplearse con una mezcla apropiada; las proporciones se ajustaron según la consistencia de trabajo, sin registrar una receta exacta. El manual GIRA especifica mortero de albañilería, por lo que esta adaptación no constituye una equivalencia directa: para reproducirla, confirme la formulación y su comportamiento térmico con una persona instaladora antes de utilizar la estufa.</p>
+<p>Ejemplo de disponibilidad local: según INEGI (2010), el Vertisol ocupa 28.47 % del municipio de Comonfort y el Phaeozem, 54.92 %. El Atlas de riesgos municipal describe vertisoles de textura fina en el centro y oriente. Estos datos justifican buscar barro arcilloso en la región, pero no garantizan la composición ni aptitud de un suelo específico. En otras localidades, consulte a personas que conozcan los materiales de la zona y, cuando sea posible, revise la cartografía edafológica. Realice una prueba de la mezcla antes de usarla.</p>
+<p>Consiga el kit metálico compatible con la Patsari: comal principal, dos comales secundarios, base y tramos de chimenea, sombrero, celosías y codos si la instalación los requiere. Para una sola estufa, puede fabricar el molde con madera reutilizada, siguiendo las medidas e indicaciones del proveedor. Compruebe las dimensiones interiores y el ajuste con los comales, sin improvisar el recorrido de los gases.</p>
+<h3>Preparación del cuerpo e instalación</h3>
+<p>Siga los dibujos y el orden del manual de GIRA: armado del molde, colocación de tabiques y cámara de combustión, relleno y celosías, formación de hornillas y conductos, asiento de comales e instalación de chimenea. Confirme las dosificaciones de mortero, arena y barro y las dimensiones de los conductos con la persona instaladora; esta versión todavía no contiene la secuencia de obra verificada. Consulte el manual original enlazado en la bibliografía. Antes del primer encendido, permita el secado y solicite una revisión de las uniones, el tiro, la ventilación y la evacuación de humo al exterior.</p>
+<h2>Recomendaciones para ahorrar materiales</h2>
+<p>Antes de comprar, revise las herramientas y los materiales que ya tiene o puede conseguir prestados. Reutilice madera sana para moldes y cimbras cuya estabilidad se haya verificado. Aproveche arena, grava y barro local de calidad adecuada. Mida las mezclas con el mismo recipiente y prepare solamente las cantidades necesarias. Guarde los sobrantes en condiciones apropiadas y recupere la madera una vez que sea seguro retirar el molde.</p>
+<p class="manual-warning">No sustituya materiales estructurales o expuestos al fuego por otros improvisados sin validar su capacidad. Ahorre en compras y desperdicios, nunca en la seguridad de las personas que utilizarán la estufa.</p>
+<h2>Origen de la guía</h2>
+<p>Ndähi nace de una experiencia de construcción comunitaria en Los Rosales, Comonfort, Guanajuato. Esta guía recoge las soluciones de aprovechamiento de recursos del proyecto y utiliza como referencia técnica el manual Patsari de GIRA y las indicaciones de Estufas TECA.</p>
+<h2>Bibliografía</h2>
+<p>Grupo Interdisciplinario de Tecnología Rural Apropiada (GIRA), A. C. (s. f.). Estufa Patsari: manual de construcción. Versión reproducida en el capítulo V de Velázquez Tafoya (2010), pp. 62–84 del PDF; materiales, p. 64. <a href="https://tesiunamdocumentos.dgb.unam.mx/ptb2010/agosto/0660852/0660852_A1.pdf#page=63" target="_blank" rel="noopener noreferrer">Consultar manual.</a></p>
+<p>Velázquez Tafoya, E. (2010). Estrategia de comunicación para la transferencia tecnológica de estufas eficientes de leña en comunidades rurales. Universidad Nacional Autónoma de México, Facultad de Estudios Superiores Acatlán. <a href="https://tesiunamdocumentos.dgb.unam.mx/ptb2010/agosto/0660852/0660852_A1.pdf" target="_blank" rel="noopener noreferrer">Consultar investigación.</a></p>
+<p>Instituto Nacional de Estadística y Geografía (INEGI). (2010). Compendio de información geográfica municipal 2010: Comonfort, Guanajuato (clave 11009). Apartados Geología, Edafología y mapa Suelos dominantes. <a href="https://www.inegi.org.mx/contenidos/app/mexicocifras/datos_geograficos/11/11009.pdf" target="_blank" rel="noopener noreferrer">Consultar compendio.</a></p>
+<p>Dirección Municipal de Protección Civil de Comonfort. (s. f.). Atlas de riesgos de Comonfort, Guanajuato. Apartados Características y uso de suelo y Clasificación y uso de suelo. <a href="https://servicios-ssp.guanajuato.gob.mx/atlas/atlas%20elab%20municipios/ATLASDERIESGOS_COMONFORT.pdf" target="_blank" rel="noopener noreferrer">Consultar atlas.</a></p></div>
+<p><a href="./index.html#recursos" class="backlink">← Regresar a documentación</a></p>
+</div></main>
+</body></html>
