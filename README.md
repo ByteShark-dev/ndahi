@@ -9,7 +9,7 @@ Sitio institucional de la iniciativa comunitaria **Ndähi**, creada a partir del
 - Etapas del proyecto y registro de actividades.
 - Galería fotográfica de la visita y del trabajo en comunidad.
 - **Documentos técnicos reales:** planos originales de la Actividad 5, modelo GLB, CAD STEP y vistas PNG.
-- **Manual de uso** en `manual.html`, adaptado del documento de la Actividad 6.
+- **Manual de usuario y mantenimiento de Ndähi** en `manual.html`, con opciones de impresión y descarga del PDF original.
 
 ## Recursos originales
 
@@ -19,7 +19,8 @@ Sitio institucional de la iniciativa comunitaria **Ndähi**, creada a partir del
 | `recursos/modelo-patsari.glb` | `04_Modelo_3D_funcional.glb` |
 | `recursos/modelo-cad.step` | `05_Modelo_CAD_editable.step` |
 | `recursos/vistas-modelo-3d.png` | `Vistas_del_modelo_3D.png` |
-| `manual.html` | Manual integral de construcción, uso y mantenimiento de la Actividad 6 |
+| `manual.html` | Documento «Ndähi – Manual de usuario y mantenimiento», actualizado el 21 de noviembre de 2026 |
+| `recursos/manual-usuario-ndahi.pdf` | PDF exportado del documento oficial de Ndähi, con portada y bibliografía |
 | `recursos/planos-vista-previa.png` | Vista previa derivada de los planos técnicos |
 
 Los archivos de la Actividad 5 se localizaron en el correo escolar titulado «Actividad 5 Raíces Sustentables | Archivos individuales para subir a Classroom», del 4 de noviembre de 2026.
