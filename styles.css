@@ -402,3 +402,28 @@ p { line-height: 1.75; }
 @media(min-width:1021px){.resources-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(min-width:651px) and (max-width:1020px){.resources-grid>.resource-feature{grid-column:auto}.resource-feature .stove-viewer{height:310px}}
 .resource-draft{background:#f5e5d1;color:#744619;border-color:#e7a45d;white-space:nowrap}
+
+/* Reconocimiento comunitario — oficio público. */
+.recognition-section{background:#f2f0e5}
+.recognition-layout{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.8fr);gap:clamp(28px,5.5vw,96px);align-items:center}
+.recognition-copy h2{font-size:clamp(2.6rem,5.4vw,5.2rem);letter-spacing:-.055em;line-height:1.04;margin:16px 0 28px;color:#132e29}
+.recognition-copy h2 em{font-family:"Instrument Serif",serif;font-weight:400;color:#b77840}
+.recognition-copy>p{color:#51665b;font-size:1.03rem;line-height:1.82;margin:0 0 18px;max-width:590px}
+.recognition-actions{display:flex;align-items:center;gap:19px;flex-wrap:wrap;margin:30px 0}
+.recognition-actions .button{white-space:nowrap}
+.recognition-download{color:#986138;text-decoration:underline;text-underline-offset:6px;font-size:.93rem;font-weight:750}
+.recognition-copy .recognition-context{font-size:.79rem;color:#66766c;line-height:1.65;margin-top:18px}
+.recognition-paper{margin:0;min-width:0;justify-self:center;max-width:425px;width:100%}
+.recognition-paper a{display:block;overflow:hidden;border-radius:9px;box-shadow:0 16px 46px rgba(19,46,41,.13);background:white;transition:transform .2s,box-shadow .2s}
+.recognition-paper a:hover{transform:translateY(-3px);box-shadow:0 19px 50px rgba(19,46,41,.19)}
+.recognition-paper img{display:block;width:100%;height:auto;aspect-ratio:3/4;object-fit:contain;background:white}
+.recognition-paper figcaption{font-size:.77rem;line-height:1.55;color:#647369;margin-top:12px;max-width:410px}
+@media(max-width:850px){
+ .recognition-layout{grid-template-columns:1fr}
+ .recognition-paper{max-width:380px}
+ .recognition-copy h2{margin-bottom:22px}
+}
+@media(max-width:520px){
+ .recognition-paper{max-width:340px}
+ .recognition-actions{gap:17px}
+}

@@ -8,6 +8,7 @@ Sitio institucional de la iniciativa comunitaria **Ndähi**, creada a partir del
 - Contexto social y fotografía real de la cocina.
 - Etapas del proyecto y registro de actividades.
 - Galería fotográfica de la visita y del trabajo en comunidad.
+- **Oficio de reconocimiento y acompañamiento comunitario** (Comonfort, 21 de octubre de 2026), con vista previa y copia pública descargable.
 - **Documentos técnicos reales:** planos originales de la Actividad 5, modelo GLB, CAD STEP y vistas PNG.
 - **Manual de usuario y mantenimiento de Ndähi** en `manual.html`, con opciones de impresión y descarga del PDF original.
 
@@ -17,6 +18,8 @@ Sitio institucional de la iniciativa comunitaria **Ndähi**, creada a partir del
 
 | Recurso publicado | Fuente |
 | --- | --- |
+| `recursos/oficio-reconocimiento-ndahi-2026.pdf` | Primera página recibida del oficio PIA-2026-0181, copia pública con teléfono personal omitido |
+| `assets/oficio-reconocimiento-ndahi.jpg` | Vista previa del oficio, con la misma omisión |
 | `recursos/planos-acotados.pdf` | `03_Planos_acotados_original_AutoCAD.pdf` |
 | `recursos/modelo-patsari.glb` | `04_Modelo_3D_funcional.glb` |
 | `recursos/modelo-cad.step` | `05_Modelo_CAD_editable.step` |
